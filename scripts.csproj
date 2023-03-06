@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net452</TargetFramework>
+    <Configurations>Output</Configurations>
+    <RootNamespace>storyboard</RootNamespace>
+    <AssemblyName>storyboard</AssemblyName>
+    <Platforms>x86</Platforms>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Output|x86' ">
+    <Optimize>true</Optimize>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <BaseOutputPath>..\..\cache\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>..\..\cache\obj\</BaseIntermediateOutputPath>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="obj\**" />
+    <None Remove=".gitignore" />
+    <None Remove="project.sbrew.yaml" />
+    <None Remove="*.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="OpenTK">
+      <HintPath>..\..\OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="StorybrewCommon">
+      <HintPath>..\..\StorybrewCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup />
+</Project>

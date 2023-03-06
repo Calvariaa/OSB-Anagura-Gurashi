@@ -1,0 +1,41 @@
+[Events]
+//Background and Video events
+//Break Periods
+//Storyboard Layer 0 (Background)
+Sprite,Background,Centre,"sb\black.png",320,240
+ M,0,43848,,320,240
+ F,0,43848,44781,0,0.6
+ F,0,64055,64677,0.6,0
+ F,0,360636,375558,1
+Sprite,Background,Centre,"sb\Isekai Joucho.jpg",320,240
+ M,0,-340,,320,240
+ S,0,-340,2160,0.4472727
+ F,0,2160,2660,1,0
+ S,0,2160,2660,0.4472727
+ F,0,2660,355662,0
+ F,0,355662,358149,0,1
+ F,0,358149,360636,1
+ F,0,360636,363123,1,0
+Sprite,Background,Centre,"sb\Kamitsubaki.jpg",320,240
+ M,0,363123,,320,240
+ F,0,363123,365610,0,1
+ S,0,363123,370584,0.4472727
+ F,0,365610,368097,1
+ F,0,368097,370584,1,0
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+Animation,Foreground,Centre,"sb\title\title.png",320,240,100,25,LoopOnce
+ P,0,44159,54729,A
+ M,0,44159,54729,320,240
+ S,0,44159,,0.5
+ S,0,44159,54729,0.5,0.45
+ F,0,54107,54729,1,0
+Animation,Foreground,Centre,"sb\subtitle\subtitle.png",320,240,50,25,LoopOnce
+ P,0,54107,64677,A
+ M,0,54107,64055,320,240
+ S,0,54107,,0.5
+ S,0,54107,64055,0.5,0.45
+ F,0,64055,64677,1,0
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples

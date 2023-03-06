@@ -1,0 +1,22 @@
+﻿FormatVersion: 7
+Name: "ImportOsb 1"
+Script: "ImportOsb"
+Config:
+  Path:
+    Type: "System.String"
+    Value: "SB.osb"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  23c7d6b7c995426b8549e818d1b80658:
+    Name: "Background"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  424290576bc04192bf267628735e8dff:
+    Name: "Foreground"
+    OsbLayer: Foreground
+    DiffSpecific: No
+    Visible: Yes

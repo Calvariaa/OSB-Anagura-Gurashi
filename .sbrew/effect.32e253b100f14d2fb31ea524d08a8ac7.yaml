@@ -1,0 +1,68 @@
+﻿FormatVersion: 7
+Name: "SimplifiedLyrics 1"
+Script: "SimplifiedLyrics"
+Config:
+  fontName:
+    Type: "System.String"
+    Value: "FOT-LyraStd-DB.otf"
+  opacity:
+    Type: "System.Single"
+    Value: "1"
+  fontScale:
+    Type: "System.Int32"
+    Value: "30"
+  spriteScale:
+    Type: "System.Single"
+    Value: "1"
+  fadeStartDelay:
+    Type: "System.Single"
+    Value: "80"
+  fadeEndDelay:
+    Type: "System.Single"
+    Value: "80"
+  fontStyle:
+    Type: "System.Int32"
+    Value: "0"
+    AllowedValues:
+      Regular: "0"
+      Bold: "1"
+      Italic: "2"
+      Underline: "4"
+      Strikeout: "8"
+  enableColor:
+    Type: "System.Boolean"
+    Value: "False"
+  textColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.8039216,0.3607843,0.3607843,1"
+  enableGlow:
+    Type: "System.Boolean"
+    Value: "True"
+  glowRadius:
+    Type: "System.Int32"
+    Value: "30"
+  glowColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,0.9680002,0.8000001,1"
+  outlineThickness:
+    Type: "System.Int32"
+    Value: "0"
+  outlineColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0,0,0,1"
+  shadowThickness:
+    Type: "System.Int32"
+    Value: "0"
+  shadowColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0,0,0,1"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  390b9a0ced59489aa3e91de6d42a7e31:
+    Name: ""
+    OsbLayer: Foreground
+    DiffSpecific: No
+    Visible: Yes
